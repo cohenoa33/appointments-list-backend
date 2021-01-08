@@ -17,7 +17,6 @@ class AppointmentsController < ApplicationController
         @appointment = Appointment.create(appointment_params)
         if @appointment.valid?
           render json: @appointment
-    
         else
           render json: { error: @appointment.errors.full_messages }, status: :not_acceptable
         end
