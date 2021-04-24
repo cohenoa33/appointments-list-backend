@@ -1,25 +1,38 @@
-# README
+# Appointments: backend
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Description:
 
-Things you may want to cover:
 
-* Ruby version
+The shortened version of FollowDoc allows the user to track medical appointments.
 
-* System dependencies
+This multi-language application supports English and Hebrew.
 
-* Configuration
 
-* Database creation
+## Database initialization
 
-* Database initialization
+This application is using `postgreSQL` as database.
 
-* How to run the test suite
+## Installation
 
-* Services (job queues, cache servers, search engines, etc.)
+- Fork and clone repository.
+- Navigate into the directory where you cloned the repository.
+- Enter the command `bundle install` in the terminal.
+- Run `sudo service postgresql start` before starting
+- Run `rails db:migrate` in the terminal.
+- Run `rails db:seed` in the terminal for testing data.
+- Run `rails s` to begin server and navigate to your browser 'localhost:3000' (or the server you are running) to view the website!
 
-* Deployment instructions
 
-* ...
-# appointments-list-backend
+## System dependencies
+
+Install rails server and run `rails s` to start this backend server.
+
+## [Live App](https://cohenoa33.github.io/appointments/)
+
+## Frontend
+[GitHub repo](https://github.com/cohenoa33/follow-doc-frontend)
+
+## FollowDoc
+[Live App](http://follow-doc.surge.sh/)
+<br>
+[GitHub repo](https://github.com/cohenoa33/follow-doc-frontend)
