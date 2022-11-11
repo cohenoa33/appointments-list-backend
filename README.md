@@ -27,12 +27,10 @@ This application is using `postgreSQL` as database.
 
 Install rails server and run `rails s` to start this backend server.
 
-## [Live App](https://cohenoa33.github.io/appointments/)
 
 ## Frontend
 [GitHub repo](https://github.com/cohenoa33/follow-doc-frontend)
 
 ## FollowDoc
-[Live App](http://follow-doc.surge.sh/)
 <br>
 [GitHub repo](https://github.com/cohenoa33/follow-doc-frontend)
