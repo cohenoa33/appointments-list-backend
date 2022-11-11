@@ -32,5 +32,4 @@ Install rails server and run `rails s` to start this backend server.
 [GitHub repo](https://github.com/cohenoa33/follow-doc-frontend)
 
 ## FollowDoc
-<br>
 [GitHub repo](https://github.com/cohenoa33/follow-doc-frontend)
